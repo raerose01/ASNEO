@@ -482,7 +482,6 @@ def main():
     ProcessSJ(args.junc, args.columns, args.reads, args.psi, args.bam, args.rpkm, args.process)
     ProcessIsoform(args.genome, args.length, args.allele, args.bind)
     ProcessNeo(args.process)
-    shutil.rmtree(path['tdir'])
     logging.info('All Process Done!')
 
 
