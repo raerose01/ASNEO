@@ -356,7 +356,6 @@ def OneEpitScore(epit):
     i = 0
     while i<3:
         i += 1
-        print(i)
         try:
             wtpep, mismatch = GetWildpep(mut_pep=mtpep)
             wtpep_score, wtpep_aff, wtpep_rank = GetMHCpan(allele=allele, pep=wtpep)
