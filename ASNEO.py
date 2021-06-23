@@ -481,7 +481,7 @@ def main():
 
     ProcessSJ(args.junc, args.columns, args.reads, args.psi, args.bam, args.rpkm, args.process)
     ProcessIsoform(args.genome, args.length, args.allele, args.bind)
-    ProcessNeo(args.process)
+    #ProcessNeo(args.process)
     logging.info('All Process Done!')
 
 
